@@ -20,3 +20,44 @@ html {
 body {
   margin: 0;
 }
+
+header {
+  padding: .5rem 0;
+  background-color: #ccc;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 .5rem;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  text-align: left;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+@media only screen and (min-width: 25rem) {
+  nav li {
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+html {
+  font-size: 110%;
+  line-height: 1.4;
+  }
+}
